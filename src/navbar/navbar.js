@@ -197,7 +197,7 @@ const handleChange=(e)=>{
               })}
             </ul>
           <div className="clear-text">
-          <button>clear All</button>
+          <button>Clear</button>
           </div>
           
             </div>
