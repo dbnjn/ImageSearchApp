@@ -166,7 +166,7 @@ const handleChange=(e)=>{
         <Toolbar>
          
           <Typography className={classes.title} variant="h6" noWrap>
-            Image Searching App
+            Image Searching Application
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
