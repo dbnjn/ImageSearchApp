@@ -1,0 +1,70 @@
+.dropdown-content{
+    position: absolute;
+    top: 111%;
+    left: 0;
+    width: 232px;
+    z-index: 200;
+    background: #f58f75;
+    background: -moz-linear-gradient(left, #f58f75 0%, #f2bb75 100%);
+    background: -webkit-linear-gradient(left, #f58f75 0%,#f2bb75 100%);
+    background: linear-gradient(to right, #f58f75 0%,#f2bb75 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58f75', endColorstr='#f2bb75',GradientType=1 );
+    padding: 0;
+}
+.dropdown-content li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .dropdown-nav{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: #fff;
+   
+    z-index: 9;
+    width: 100%;
+  }
+
+  .dropdown-nav ul{
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+  }
+
+  .dropdown-nav ul li{
+     
+      margin-bottom: 5px;
+  }
+
+  .dropdown-nav ul li:last-child{
+      margin-bottom: 0;
+  }
+
+  .dropdown-nav ul li a{
+      display:block;
+      color: #000;
+      padding: 10px;
+      text-decoration: none;
+  }
+
+  .dropdown-nav ul li a:hover{
+      background-color: antiquewhite;
+  }
+  .clear-text{
+      padding:7px;
+      text-align: right;
+  }
+
+  .MuiAppBar-colorPrimary {
+    color: #fff;
+    background-color: #3f51b5;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
